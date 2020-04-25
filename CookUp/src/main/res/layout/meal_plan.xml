@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select a date!"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/_mealplan_detail_tv"
+                >
+
+            </TextView>
+
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Breakfast"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/breakfast_tv"
+                android:visibility="gone">
+
+            </TextView>
+
+            <include
+                android:id="@+id/breakfast_row"
+                layout="@layout/row"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunch"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/lunch_tv"
+                android:visibility="gone"/>
+
+            <include
+                android:id="@+id/lunch_row"
+                layout="@layout/row"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/dinner_tv"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinner"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/dinner_row"
+                layout="@layout/row"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

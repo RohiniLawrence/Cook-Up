@@ -1,0 +1,2 @@
+include ':CookUp'
+rootProject.name='MyKitchen'

@@ -7,7 +7,7 @@ An application which let's users organize their kitchen inventory, create shoppi
  * Users can add items to their *virtual pantry*. 
  * Users can add items to their *shopping list*.
  * Users can add/ create recipes. 
- * Users can add recipes to their calender (the app informs users if they have all the ingredients).
+ * Users can add recipes to their calender to make *meal plans*. (the app informs users if they have all the ingredients).
 
 ## Tools Used: 
  Developed using:  **Android Studio**  

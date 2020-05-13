@@ -1,7 +1,7 @@
 # CookUp : Android App 
 > An application which let's users organize their kitchen inventory, create shopping lists, plan meals for the week/month and save recipes.  
 
-> *"As a developer with a lot to learn, I hated spending precious time on managing my kitchen inventory, planning meals, forgetting recipes, etc so I thought why not make an app for my situation"*
+*"As a developer with a lot to learn, I hated spending precious time on managing my kitchen inventory, planning meals, forgetting recipes, etc so I thought why not make an app for my situation"*
 
 ## Functionalities: 
 > * Users can add items to their *virtual pantry*. 
